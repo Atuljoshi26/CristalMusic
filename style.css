@@ -1,0 +1,66 @@
+*{margin:0 ;
+padding:0 ;
+box-sizing: border-box;
+font-family: gilory;
+}
+
+html,body{
+    height:100% ;
+    width: 100%;
+    background-color: lightgreen;
+}
+
+#main{
+    height:100% ;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+#navpart1 h3{
+    font-size: 18px;
+    font-weight: 500;
+    border: 1.5px solid orange;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+#navpart2 h3{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#navpart3 button{
+    padding: 7px 12px;
+    border-radius: 30px;
+    border: 1.5px solid rgb(22, 21, 18);
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgb(255, 255, 255);
+}
+
+#navpart3 #button2{
+    background-color: rgb(255, 136, 0);
+    color: white;
+}
+
+#centh1{
+    font-size: 180px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+
